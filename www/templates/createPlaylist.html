@@ -1,0 +1,20 @@
+<ion-modal-view id="creation-modal">
+  <ion-header-bar>
+    <h1 class="title">Create a new playlist</h1>
+    <div class="buttons">
+      <button id="close-playlist-modal" class="button button-clear" ng-click="closeCreationForm()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doSave()">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" ng-model="playlistData.title" placeholder="First Name">
+        </label>
+        <label class="item">
+          <button id="submit-playlist" class="button button-block button-positive" type="submit">Save</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

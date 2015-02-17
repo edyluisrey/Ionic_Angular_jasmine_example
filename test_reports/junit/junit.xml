@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 39.0.2171 (Windows 7)" package="unit" timestamp="2015-01-23T22:14:48" id="0" hostname="dev10-PC" tests="9" errors="0" failures="0" time="0.122">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36"/>
+    </properties>
+    <testcase name="should have defined the playlists" time="0.068" classname="unit Chrome 39.0.2171 (Windows 7).Unit: PlaylistsCtrl"/>
+    <testcase name="should have 6 playlists" time="0.012" classname="unit Chrome 39.0.2171 (Windows 7).Unit: PlaylistsCtrl"/>
+    <testcase name="should have a cool title" time="0.008" classname="unit Chrome 39.0.2171 (Windows 7).Unit: PlaylistsCtrl"/>
+    <testcase name="should have an initial state" time="0.008" classname="unit Chrome 39.0.2171 (Windows 7).Unit: AppCtrl"/>
+    <testcase name="should have an initial state MyCtrl" time="0.006" classname="unit Chrome 39.0.2171 (Windows 7).test controller search Unit: MyCtrl"/>
+    <testcase name="should set data to &quot;things and stuff&quot;" time="0.007" classname="unit Chrome 39.0.2171 (Windows 7).mocking service http call with spies"/>
+    <testcase name="should set data to &quot;things and stuff&quot;" time="0.007" classname="unit Chrome 39.0.2171 (Windows 7).mocking service http call with httpBackend"/>
+    <testcase name=".value should be &quot;goodValue&quot;" time="0.003" classname="unit Chrome 39.0.2171 (Windows 7).search service searchService successful http request"/>
+    <testcase name=".value should be &quot;goodValue&quot;" time="0.003" classname="unit Chrome 39.0.2171 (Windows 7).search service 2"/>
+    <system-out><![CDATA[Chrome 39.0.2171 (Windows 7) LOG: 'WARNING: Tried to load angular more than once.'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

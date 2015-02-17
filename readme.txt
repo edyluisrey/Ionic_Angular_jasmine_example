@@ -1,0 +1,1 @@
+This is sample app for testing ionic framework with phonega. it must include even the utilization of other frameworks for unit testing.

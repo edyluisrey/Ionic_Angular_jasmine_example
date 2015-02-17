@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+.platform-ios .bar{
+  background: green;
+}
+
+.platform-android .bar{
+  background: blue;
+}
+
+.platform-browser .bar {
+  background: red;
+}

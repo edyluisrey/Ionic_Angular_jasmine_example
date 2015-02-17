@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 35.0.0 (Mac OS X 10.10)" package="" timestamp="2015-01-16T19:34:43" id="0" hostname="Mac-mini-de-Jose.local" tests="0" errors="1" failures="0" time="0">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:35.0) Gecko/20100101 Firefox/35.0"/>
+    </properties>
+    <system-out><![CDATA[Chrome 39.0.2171 (Mac OS X 10.10.1) LOG: 'WARNING: Tried to load angular more than once.'
+,Firefox 35.0.0 (Mac OS X 10.10) LOG: 'WARNING: Tried to load angular more than once.'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+  <testsuite name="Chrome 39.0.2171 (Mac OS X 10.10.1)" package="" timestamp="2015-01-16T19:34:43" id="0" hostname="Mac-mini-de-Jose.local">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Chrome 39.0.2171 (Mac OS X 10.10.1)" package="" timestamp="2015-01-16T19:34:45" id="0" hostname="Mac-mini-de-Jose.local" tests="3" errors="0" failures="0" time="1.347">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36"/>
+    </properties>
+    <testcase name="should have defined the playlists" time="1.295" classname="Chrome 39.0.2171 (Mac OS X 10.10.1).Unit: PlaylistsCtrl"/>
+    <testcase name="should have 6 playlists" time="0.043" classname="Chrome 39.0.2171 (Mac OS X 10.10.1).Unit: PlaylistsCtrl"/>
+    <testcase name="should have a cool title" time="0.009" classname="Chrome 39.0.2171 (Mac OS X 10.10.1).Unit: PlaylistsCtrl"/>
+    <system-out><![CDATA[Chrome 39.0.2171 (Mac OS X 10.10.1) LOG: 'WARNING: Tried to load angular more than once.'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

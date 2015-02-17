@@ -1,0 +1,27 @@
+<ion-view view-title="Search">
+  <ion-content ng-app="ionicApp" ng-controller="MyCtrl">
+  
+
+		<div class="list list-inset">
+		  <label class="item item-input">
+		    <i class="icon ion-search placeholder-icon"></i>
+		    <input type="text" ng-model="searchString" placeholder="Search">
+		  </label>
+		</div>
+
+	    <div class="list">
+
+	        <a ng-repeat="item in items  | searchFor:searchString" 
+	           href="#/app/search/{{item.id}}"
+	           class="item item-thumbnail-left">
+
+	          <img ng-src="{{ item.image }}">
+	          <h2>{{ item.title }}</h2>
+	        </a>
+
+	   </div>
+
+  </ion-content>
+</ion-view>
+
+
