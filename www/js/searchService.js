@@ -2,10 +2,10 @@ angular.module('search.services', [])
     .factory("searchService", function ($http) {
         return {
             all: function() {
-                return $http.get('http://192.168.2.196/api_phonegap/api.php?action=libros');
+                return $http.get('libros.json');
             },       
             get: function(searchId) {
-                return $http.get('http://192.168.2.196/api_phonegap/api.php?action=libros'); 
+                return $http.get('libros.json'); 
             	 
             }
         }

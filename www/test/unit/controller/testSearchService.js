@@ -5,7 +5,7 @@ describe('search service', function() {
 
   beforeEach(inject(function ($injector) {
     $httpBackend = $injector.get("$httpBackend");
-    $httpBackend.when("GET", "http://192.168.2.196/api_phonegap/api.php?action=libros")
+    $httpBackend.when("GET", "libros.json")
         .respond(200, {value:"goodValue"});
   }));
 
@@ -40,7 +40,7 @@ describe('search service 2', function() {
    beforeEach(inject(function (searchService,$httpBackend) {
      SearchService= searchService;
      httpBackend = $httpBackend;
-     httpBackend.when("GET", "http://192.168.2.196/api_phonegap/api.php?action=libros").respond(200, {value:"goodValue"});
+     httpBackend.when("GET", "libros.json").respond(200, {value:"goodValue"});
    }));  
 
   afterEach(function () {
